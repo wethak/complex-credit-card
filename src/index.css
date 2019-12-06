@@ -1,0 +1,87 @@
+.main {
+  width: 30%;
+  position: relative;
+}
+#card {
+  background-image: url("http://www.practia.global/Industrias/PublishingImages/BannerTecnologia.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  height:230px;
+}
+div.card-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10%;
+}
+h3 {
+  color: white;
+}
+h1 {
+  color: white;
+}
+
+span {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  align-items: center;
+  margin-top: 0;
+}
+.container {
+  display: flex;
+  align-self: center;
+}
+#month {
+  margin-bottom: 0;
+  margin-top: 0;
+  color: white;
+}
+.date {
+  margin-top: 0;
+  color: white;
+}
+#card-number {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+.input input {
+  border-radius: 7px;
+  width: 250px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.chip-image {
+  width: 30px;
+  height: 30px;
+}
+.visa-image {
+  width: 60px;
+  height: 80px;
+  position: absolute;
+  right: 7%;
+  top: 60%;
+}
+h1 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+  margin-bottom: 0;
+}
+h3 {
+  margin-top: 0;
+}
+.valid {
+  margin-left: 114px;
+  color: white;
+}
